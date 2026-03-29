@@ -235,7 +235,7 @@ This produces an executable (check your `Makefile` for the output name).
 ### Running the XOR Example
 
 ```bash
-./neural
+make run
 ```
 
 The demo in `main.c` trains a 4-layer network (`2 → 4 → 4 → 4 → 1`) on the XOR problem for 1,000,000 epochs at a learning rate of `0.01`. It prints predictions before and after training so you can see the loss drop.
